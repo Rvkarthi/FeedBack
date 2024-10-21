@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+        *{
+            margin: 0;
+            padding: 0;
+        }
+
+        .col-5 a{
+            background-color: #1f586e;
+            padding:  10px 100px;
+        }
+
+        .col-5 h1{
+            font-family: "Bebas Neue", sans-serif;
+            font-weight: 400;
+            font-size: 90px;
+            mix-blend-mode: difference;
+            font-style: normal;
+        }
+
+        .col-5{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: space-around;
+        }
+
+        #main-row{
+            height: 80dvh;
+        height: 80lvh;
+        height: 80svh;
+        height: 80vh;
+        background-color: rgba(245, 245, 220, 0.2);
+        }
+        #card1{
+            display: flex;
+            align-items: center;
+            border-right: 5px solid rgba(235, 235, 235, 0.178);
+        }
+        #card2{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+       
+
+        body {
+        background: linear-gradient(to bottom, #a6f2f2, #1f586e);
+        font-family: 'Poppins', sans-serif;
+        color: #333;
+        height: 100dvh;
+        height: 100lvh;
+        height: 100svh;
+        height: 100vh;
+    }
+    </style>
+</head>
+<body>
+    
+       <header>
+        <nav class="navbar bg-body-tertiary" id="navbar">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">
+                <!-- add the path of the img -->
+                <img src="https://github.com/shaheen-coder/FeedBack/blob/main/static/assets/avc.png?raw=true" alt="Logo" width="35" height="30" class="d-inline-block align-text-top">
+                AVC COLLEGE
+              </a>
+              <button class="btn border d-flex me-5">log out   </button>
+            </div>
+          </nav>
+       </header>
+
+       <div class="container my-5">
+        <div class="row p-5 justify-content-around" id="main-row">
+            <div class="col-5 justify-content-center" id="card1">
+                <h1>welcome to admin</h1>
+            </div>
+            <div class="col-5 justify-content-center" id="card2">
+                <div class="btn-group-vertical" role="group" aria-label="Vertical button group">
+                    <a type="button" title="go to Student Check page" class="btn btn-primary px-5">Student Check</a>
+                    <a type="button" class="btn btn-primary px-5">Staff analysis</a>
+                    <a type="button" class="btn btn-primary px-5">class analysis</a>
+                    <a type="button" class="btn btn-primary px-5">Report generator</a>
+                  </div>
+            </div>
+        </div>
+       </div>
+    
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</html>
